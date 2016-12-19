@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="shortcut icon" href="logoicon.png" type="image/x-icon" />
+    <!--     <link rel="stylesheet" type="text/css" href="Blue.css" /> -->
+    <title>hao123_上网从这里开始</title>
+</head>
+
+<body onload="init()">
+    <div id="wrapper">
+        <!-- 顶部搜索加导航 -->
+        <div id="header">
+            <div class="search">
+                <img src="baidulogo.png" alt="百度logo" />
+                <form action="">
+                    <input class="one" type="text" />
+                    <input class="two" type="submit" value="百度一下" />
+                </form>
+            </div>
+            <div id="change">
+                <span><input type="button" id="btRed" onclick="changeSkin('red')"/></span>
+                <span><input type="button" id="btGreen" onclick="changeSkin('green')"/></span>
+                <span><input type="button" id="btBlue" onclick="changeSkin('blue')" /></span>
+                <span><input type="button" id="btPurple" onclick="changeSkin('purple')"/></span>
+                <span><input type="button" id="btGrey" onclick="changeSkin('grey')"/></span>
+                <span>网页换肤:</span>
+            </div>
+            <div id="nav">
+                <ul class="first">
+                    <li id="nav"><a href="">首页</a></li>
+                </ul>
+                <ul class="other">
+                    <li><a href="">电视剧</a></li>
+                    <li><a href="">最新电影</a></li>
+                    <li><a href="">新闻头条</a></li>
+                    <li><a href="">八卦娱乐</a></li>
+                    <li><a href="">军事热点</a></li>
+                    <li><a href="">热门游戏</a></li>
+                    <li><a href="">小游戏</a></li>
+                    <li><a href="">今日特价</a></li>
+                    <li><a href="">特价旅游</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 主体内容 -->
+        <div id="container">
+            <!-- 主体左侧 -->
+            <div class="left">
+                <div class="left_one">
+                    <img src="gg.jpg" alt="" />
+                    <a href="">完美停车：考验你的真实驾驶水平</a>
+                    <a href="">这么大的hao事,不来你可千万别后悔!</a>
+                </div>
+                <div class="left_two">
+                    <ul>
+                        <li><a href="">电视剧</a> | <a href="">综艺</a></li>
+                        <li><a href="">电影</a> | <a href="">直播</a></li>
+                        <li><a href="">头条</a> | <a href="">军事</a></li>
+                        <li><a href="">彩票</a> | <a href="">股票</a></li>
+                        <li><a href="">特价</a> | <a href="">海淘</a></li>
+                        <li><a href="">生活</a> | <a href="">天气</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">游戏</a> | <a href="">小游戏</a></li>
+                        <li><a href="">动画</a> | <a href="">漫画</a></li>
+                        <li><a href="">旅游</a> | <a href="">门票</a></li>
+                        <li><a href="">搞笑</a> | <a href="">小说</a></li>
+                        <li><a href="">教育</a> | <a href="">理财</a></li>
+                        <li><a href="">美食</a> | <a href="">音乐</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 主体右侧 -->
+            <div class="right">
+                <div class="right_one">
+                    <div class="right_one_first">
+                        <ul>
+                            <li><a href="">百度</a> • <a href="">贴吧</a></li>
+                            <li><a href="">天 猫</a></li>
+                            <li><a href="">京东商城</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">新浪</a> • <a href="">微博</a></li>
+                            <li><a href="">凤凰网</a></li>
+                            <li><a href="">聚划算</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">搜狐</a> • <a href="">热点</a></li>
+                            <li><a href="">淘宝网</a></li>
+                            <li><a href="">今日特价</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">腾 讯</a></li>
+                            <li><a href="">免费游戏</a></li>
+                            <li><a href="">影视</a> • <a href="">爸爸3</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">网 易</a></li>
+                            <li><a href="">4399游戏</a></li>
+                            <li><a href="">汽车之家</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">爱奇艺高清</a></li>
+                            <li><a href="">新华</a> • <a href="">人民</a></li>
+                            <li><a href="">去哪儿</a></li>
+                        </ul>
+                    </div>
+                    <div class="right_one_second">
+                        <ul>
+                            <li><a href="">东方财富</a> • <a href="">理财</a></li>
+                            <li><a href="">聚美优品</a></li>
+                            <li><a href="">唯品会</a></li>
+                            <li><a href="">百度糯米</a></li>
+                            <li><a href="">传奇霸业</a></li>
+                            <li id="nav"><a href="">苏宁易购</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">58同城</a></li>
+                            <li><a href="">赶集网</a></li>
+                            <li><a href="">同城旅游</a></li>
+                            <li><a href="">蘑菇街</a></li>
+                            <li><a href="">苏宁超市</a></li>
+                            <li id="nav"><a href="">国美在线</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">搜房网</a></li>
+                            <li><a href="">易车网</a></li>
+                            <li><a href="">途牛旅游网</a></li>
+                            <li><a href="">37游戏</a></li>
+                            <li><a href="">影视大全</a></li>
+                            <li id="nav"><a href="">世纪佳缘</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">携程旅游网</a></li>
+                            <li><a href="">彩票开奖</a></li>
+                            <li><a href="">百度浏览器</a></li>
+                            <li><a href="">驴妈妈旅游</a></li>
+                            <li><a href="">乐视网</a></li>
+                            <li id="nav"><a href="">1号店</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">PPTV聚力</a></li>
+                            <li><a href="">爱卡汽车</a></li>
+                            <li><a href="">太平洋汽车</a></li>
+                            <li><a href="">百姓网</a></li>
+                            <li><a href="">优酷网</a></li>
+                            <li id="nav"><a href="">爱淘宝</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">机票</a> • <a href="">12306</a></li>
+                            <li><a href="">美 拍</a></li>
+                            <li><a href="">艺龙网</a></li>
+                            <li><a href="">大智慧炒股</a></li>
+                            <li><a href="">新车上市</a></li>
+                            <li id="nav"><a href="">飞牛网商城</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div id="footer">
+            <img src="88.jpg" alt="" />
+            <a href="关于本站"></a>
+            <a href="">常见问题</a>
+            <a href="">全站地图</a>
+            <a href="">意见反馈</a>
+            <span>京ICP证030173号</span>
+        </div>
+    </div>
+    <link id="cssStyle" type="text/css" rel="stylesheet" href="" />
+    <script type="text/javascript" src="Skin.js"></script>
+</body>
+
+</html>
